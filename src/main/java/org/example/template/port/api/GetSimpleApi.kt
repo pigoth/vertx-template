@@ -1,10 +1,9 @@
-package org.example.template
+package org.example.template.port.api
 
 import io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE
 import io.netty.handler.codec.http.HttpHeaderValues.APPLICATION_JSON
 import io.vertx.core.Handler
 import io.vertx.core.json.JsonArray
-import io.vertx.core.json.JsonObject
 import io.vertx.ext.web.Router
 import io.vertx.ext.web.RoutingContext
 import org.slf4j.LoggerFactory

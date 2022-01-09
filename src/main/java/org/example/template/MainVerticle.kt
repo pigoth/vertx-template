@@ -5,6 +5,7 @@ import io.vertx.core.AbstractVerticle
 import io.vertx.core.Promise
 import io.vertx.core.json.jackson.DatabindCodec
 import io.vertx.ext.web.Router
+import org.example.template.port.api.GetSimpleApi
 import org.slf4j.LoggerFactory
 
 class MainVerticle : AbstractVerticle() {

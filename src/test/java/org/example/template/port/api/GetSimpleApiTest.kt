@@ -1,4 +1,4 @@
-package org.example.template
+package org.example.template.port.api
 
 import io.restassured.RestAssured.given
 import io.restassured.http.ContentType.JSON
@@ -7,6 +7,7 @@ import io.vertx.ext.web.Router.router
 import io.vertx.junit5.VertxExtension
 import io.vertx.junit5.VertxTestContext
 import org.assertj.core.api.Assertions.assertThat
+import org.example.template.JsonExtension
 import org.hamcrest.Matchers.`is`
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
