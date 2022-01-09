@@ -16,6 +16,8 @@ class MainVerticle : AbstractVerticle() {
 
     val router = Router.router(vertx)
 
+    GetSimpleApi(router)
+
     vertx.createHttpServer()
       .requestHandler(router)
       .listen(8080)
