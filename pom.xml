@@ -20,7 +20,7 @@
 
         <jackson.version>2.12.5</jackson.version>
         <kotlin.version>1.6.10-RC</kotlin.version>
-        <vertx.version>4.1.2</vertx.version>
+        <vertx.version>4.1.8</vertx.version>
         <log4j.version>2.14.1</log4j.version>
         <slf4j.version>2.0.0-alpha0</slf4j.version>
         <rest-assured.version>4.4.0</rest-assured.version>
@@ -56,11 +56,13 @@
             <artifactId>kotlin-stdlib-jdk8</artifactId>
             <version>${kotlin.version}</version>
         </dependency>
+
         <dependency>
             <groupId>io.vertx</groupId>
-            <artifactId>vertx-web</artifactId>
+            <artifactId>vertx-web-validation</artifactId>
             <version>${vertx.version}</version>
         </dependency>
+
 
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
